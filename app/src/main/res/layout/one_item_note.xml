@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/note_title"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="2dp"
+        android:fontFamily="sans-serif-condensed"
+        android:paddingStart="5dp"
+        android:textColor="@color/purple_700"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/delete_btn"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="3dp"
+        android:backgroundTint="@color/white"
+        app:icon="@drawable/ic_baseline_delete_24"
+        app:iconTint="#FF3700B3"
+        app:iconTintMode="src_in" />
+
+    <TextView
+        android:id="@+id/note_cdate"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="sans-serif-condensed"
+        android:paddingStart="5dp"
+        android:textColor="#9F231E1E"
+        android:textSize="15sp" />
+
+</LinearLayout>
+
